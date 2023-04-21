@@ -66,7 +66,7 @@ class LoginController extends Controller
             $request['password'] = bcrypt($request->password);
         }
 
-        User::create($validated);
+        User::create($request->all());
 
         return redirect()->route('home');
     }
