@@ -1,6 +1,6 @@
 # A Simple Chat Application using NodeJS, JQUERY and Laravel Framework
 #installation Instructions
- - Laravel    
+ ## Laravel    
     -- Go to SimpleChat Folder 
         $ composer install
         $ npm install
